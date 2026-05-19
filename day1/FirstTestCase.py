@@ -11,6 +11,7 @@ driver = webdriver.Chrome()
 
 driver.maximize_window()
 
+
 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
 time.sleep(5)
