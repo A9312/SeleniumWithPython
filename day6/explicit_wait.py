@@ -27,3 +27,4 @@ search_box.submit()
 search_link = mywait.until(EC.presence_of_element_located((By.XPATH,"//h3[text()='Selenium']")))
 
 search_link.click()
+
